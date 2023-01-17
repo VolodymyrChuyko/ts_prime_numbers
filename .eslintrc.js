@@ -32,5 +32,10 @@ module.exports = {
   ],
   rules: {
     'semi': 'error',
-  }
+    'arrow-parens': ["error", "as-needed"],
+    'no-multi-spaces': "error",
+    'no-multiple-empty-lines': ["error", { "max": 1, "maxEOF": 0 }],
+    'no-trailing-spaces': "error",
+    'eol-last': ["error", "always"],
+  },
 };
