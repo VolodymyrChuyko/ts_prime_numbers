@@ -1,5 +1,5 @@
-import { sayHi } from "./components";
+import { PrimeNumber } from "./primenum";
 
-console.log('Hello, world!');
+const prims = new PrimeNumber();
 
-sayHi('World');
+console.log(prims.range(0, 300));
